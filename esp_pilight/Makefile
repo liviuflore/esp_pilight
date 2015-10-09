@@ -11,7 +11,7 @@
 #
 #
 # Base projects directory, shoud be set in enviroment
-#TOOLKIT_DIR	= D:\_code\esp\toolkit
+# eg:TOOLKIT_DIR	= D:\_code\esp\toolkit
 
 # Base directory for the compiler
 XTENSA_TOOLS_ROOT ?= $(TOOLKIT_DIR)\xtensa-lx106-elf\bin
