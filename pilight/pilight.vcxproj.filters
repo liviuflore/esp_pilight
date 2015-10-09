@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\pilight-master\control.c" />
+    <ClCompile Include="..\..\pilight-master\daemon.c" />
+    <ClCompile Include="..\..\pilight-master\debug.c" />
+    <ClCompile Include="..\..\pilight-master\flash.c" />
+    <ClCompile Include="..\..\pilight-master\raw.c" />
+    <ClCompile Include="..\..\pilight-master\receive.c" />
+    <ClCompile Include="..\..\pilight-master\send.c" />
+    <ClCompile Include="..\..\pilight-master\sha256.c" />
+    <ClCompile Include="..\..\pilight-master\uuid.c" />
+    <ClCompile Include="..\..\pilight-master\libs\wiringx\bananapi.c">
+      <Filter>libs\wiringx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\wiringx\ci20.c">
+      <Filter>libs\wiringx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\wiringx\hummingboard.c">
+      <Filter>libs\wiringx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\wiringx\raspberrypi.c">
+      <Filter>libs\wiringx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\wiringx\wiringX.c">
+      <Filter>libs\wiringx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\config\devices.c">
+      <Filter>libs\plight\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\config\gui.c">
+      <Filter>libs\plight\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\config\hardware.c">
+      <Filter>libs\plight\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\config\registry.c">
+      <Filter>libs\plight\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\config\rules.c">
+      <Filter>libs\plight\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\config\settings.c">
+      <Filter>libs\plight\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\proc.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\sha256cache.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\socket.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\ssdp.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\strptime.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\threads.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\webserver.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\arp.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\binary.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\common.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\config.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\datetime.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\dso.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\fcache.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\firmware.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\gc.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\http.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\irq.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\json.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\log.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\mail.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\mem.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\mongoose.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\network.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\ntp.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\options.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\pilight.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\core\ping.c">
+      <Filter>libs\plight\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\action.c">
+      <Filter>libs\plight\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\events.c">
+      <Filter>libs\plight\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\function.c">
+      <Filter>libs\plight\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operator.c">
+      <Filter>libs\plight\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\dim.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\label.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\pushbullet.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\pushover.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\sendmail.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\switch.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\actions\toggle.c">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\functions\date_format.c">
+      <Filter>libs\plight\events\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\functions\random.c">
+      <Filter>libs\plight\events\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\functions\date_add.c">
+      <Filter>libs\plight\events\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\gt.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\intdivide.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\is.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\le.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\lt.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\minus.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\modulus.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\multiply.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\ne.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\or.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\plus.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\and.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\divide.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\eq.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\events\operators\ge.c">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\hardware\433gpio.c">
+      <Filter>libs\plight\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\hardware\433lirc.c">
+      <Filter>libs\plight\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\hardware\433nano.c">
+      <Filter>libs\plight\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\hardware\none.c">
+      <Filter>libs\plight\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\protocol.c">
+      <Filter>libs\plight\protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\techlico_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\teknihall.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\tfa.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\x10.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\alecto_ws1700.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\alecto_wsd17.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\alecto_wx500.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_contact.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_dimmer.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_dusk.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_motion.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_screen.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_screen_old.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_switch_old.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\auriol.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\beamish_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\clarus.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\cleverwatts.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\conrad_rsl_contact.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\conrad_rsl_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\daycom.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\ehome.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_300_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_400_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_800_contact.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_800_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\ev1527.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\heitech.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\impuls.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\logilink_switch.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\mumbi.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\ninjablocks_weather.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\pollin.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\quigg_gt1000.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\quigg_gt7000.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\quigg_screen.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\rc101.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\rsl366.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\sc2262.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\selectremote.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\433.92\silvercrest.c">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\cpu_temp.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\datetime.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\lirc.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\openweathermap.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\program.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\sunriseset.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\wunderground.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\API\xbmc.c">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\core\pilight_firmware_v3.c">
+      <Filter>libs\plight\protocols\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\core\raw.c">
+      <Filter>libs\plight\protocols\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\core\pilight_firmware_v2.c">
+      <Filter>libs\plight\protocols\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_label.c">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_screen.c">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_switch.c">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_weather.c">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_webcam.c">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_dimmer.c">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\gpio_switch.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\lm75.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\lm76.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\relay.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\bmp180.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\dht11.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\dht22.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\ds18b20.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\GPIO\ds18s20.c">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\network\ping.c">
+      <Filter>libs\plight\protocols\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pilight-master\libs\pilight\protocols\network\arping.c">
+      <Filter>libs\plight\protocols\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\pilight-master\setup.sh" />
+    <None Include="..\..\pilight-master\inc\defines.h.in">
+      <Filter>inc</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\index.html">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\jquery.mobile-1.4.2.min.css">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\jquery.mobile-1.4.2.min.js">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\jquery-2.0.2.min.js">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\moment.min.js">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\pilight.css">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\pilight.jquery.theme.css">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\webgui\pilight.js">
+      <Filter>libs\webgui</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\events\actions\action_header.h.in">
+      <Filter>libs\plight\events\actions</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\events\actions\action_init.h.in">
+      <Filter>libs\plight\events\actions</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\events\functions\function_header.h.in">
+      <Filter>libs\plight\events\functions</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\events\functions\function_init.h.in">
+      <Filter>libs\plight\events\functions</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\events\operators\operator_header.h.in">
+      <Filter>libs\plight\events\operators</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\events\operators\operator_init.h.in">
+      <Filter>libs\plight\events\operators</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\hardware\hardware_header.h.in">
+      <Filter>libs\plight\hardware</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\hardware\hardware_init.h.in">
+      <Filter>libs\plight\hardware</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\433.92\protocol_header.h.in">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\433.92\protocol_init.h.in">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\API\protocol_header.h.in">
+      <Filter>libs\plight\protocols\API</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\API\protocol_init.h.in">
+      <Filter>libs\plight\protocols\API</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\core\protocol_header.h.in">
+      <Filter>libs\plight\protocols\core</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\core\protocol_init.h.in">
+      <Filter>libs\plight\protocols\core</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\generic\protocol_header.h.in">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\generic\protocol_init.h.in">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\GPIO\protocol_header.h.in">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\GPIO\protocol_init.h.in">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\network\protocol_header.h.in">
+      <Filter>libs\plight\protocols\network</Filter>
+    </None>
+    <None Include="..\..\pilight-master\libs\pilight\protocols\network\protocol_init.h.in">
+      <Filter>libs\plight\protocols\network</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{387906cb-50e2-453d-a692-4895ad24c321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{953ee3e5-8dc4-449e-95be-4b860eee0e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\avrdude">
+      <UniqueIdentifier>{b80b13ce-5d02-47f8-acd7-958538eadfdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight">
+      <UniqueIdentifier>{e139bbc9-ead5-44a5-b5a7-fa544184f770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\webgui">
+      <UniqueIdentifier>{34dde55d-da4c-4a55-af13-9dd437caf7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\wiringx">
+      <UniqueIdentifier>{f6fb1d42-45f0-4026-bcff-bc2a40763e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\config">
+      <UniqueIdentifier>{f7daf064-b729-46fd-a397-0d2c80118f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\core">
+      <UniqueIdentifier>{fdd4e188-08fe-4e07-825b-0e4587bdd36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\events">
+      <UniqueIdentifier>{51f9500f-2b74-41c1-ae26-57c9769fff79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\events\actions">
+      <UniqueIdentifier>{a8859ef8-f8fc-463a-8754-8c0c8f6e1ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\events\functions">
+      <UniqueIdentifier>{6f1a9546-f765-42c1-b1ea-5f177f633810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\events\operators">
+      <UniqueIdentifier>{219b5f1f-2535-4dcd-b5e5-45b58ffe33ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\hardware">
+      <UniqueIdentifier>{dedbbbfd-bbf1-4a5d-b000-50c9db537baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols">
+      <UniqueIdentifier>{53c02cc1-51f9-4373-87d5-3d9bd1c9480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols\433.92">
+      <UniqueIdentifier>{b4c18523-9409-4180-9557-4200c667b40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols\API">
+      <UniqueIdentifier>{7125403d-8550-4b91-9045-d7cc7042e8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols\core">
+      <UniqueIdentifier>{1073ecb4-38e0-44f9-b22d-538c32f10697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols\generic">
+      <UniqueIdentifier>{1cda25f4-c1d5-4064-b0b7-fb151efdd7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols\GPIO">
+      <UniqueIdentifier>{63dd5b55-6350-46b8-b287-00dd92c4f573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\plight\protocols\network">
+      <UniqueIdentifier>{a3945335-69d1-4958-b930-19e4287e01b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\pilight-master\inc\i2c-dev.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\wiringx\bananapi.h">
+      <Filter>libs\wiringx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\wiringx\ci20.h">
+      <Filter>libs\wiringx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\wiringx\hummingboard.h">
+      <Filter>libs\wiringx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\wiringx\raspberrypi.h">
+      <Filter>libs\wiringx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\wiringx\wiringX.h">
+      <Filter>libs\wiringx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\config\devices.h">
+      <Filter>libs\plight\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\config\gui.h">
+      <Filter>libs\plight\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\config\hardware.h">
+      <Filter>libs\plight\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\config\registry.h">
+      <Filter>libs\plight\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\config\rules.h">
+      <Filter>libs\plight\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\config\settings.h">
+      <Filter>libs\plight\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\proc.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\sha256cache.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\socket.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\ssdp.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\strptime.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\threads.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\update.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\webserver.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\arp.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\binary.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\common.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\config.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\datetime.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\dso.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\fcache.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\firmware.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\gc.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\http.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\i2c-dev.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\irq.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\json.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\log.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\mail.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\mem.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\mongoose.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\network.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\ntp.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\options.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\pilight.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\core\ping.h">
+      <Filter>libs\plight\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\action.h">
+      <Filter>libs\plight\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\events.h">
+      <Filter>libs\plight\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\function.h">
+      <Filter>libs\plight\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operator.h">
+      <Filter>libs\plight\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\dim.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\label.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\pushbullet.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\pushover.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\sendmail.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\switch.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\actions\toggle.h">
+      <Filter>libs\plight\events\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\functions\date_add.h">
+      <Filter>libs\plight\events\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\functions\date_format.h">
+      <Filter>libs\plight\events\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\functions\random.h">
+      <Filter>libs\plight\events\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\gt.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\intdivide.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\is.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\le.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\lt.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\minus.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\modulus.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\multiply.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\ne.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\or.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\plus.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\and.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\divide.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\eq.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\events\operators\ge.h">
+      <Filter>libs\plight\events\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\hardware\433gpio.h">
+      <Filter>libs\plight\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\hardware\433lirc.h">
+      <Filter>libs\plight\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\hardware\433nano.h">
+      <Filter>libs\plight\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\hardware\none.h">
+      <Filter>libs\plight\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\protocol.h">
+      <Filter>libs\plight\protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\techlico_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\teknihall.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\tfa.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\x10.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\alecto_ws1700.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\alecto_wsd17.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\alecto_wx500.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_contact.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_dimmer.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_dusk.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_motion.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_screen.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_screen_old.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\arctech_switch_old.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\auriol.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\beamish_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\clarus.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\cleverwatts.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\conrad_rsl_contact.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\conrad_rsl_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\daycom.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\ehome.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_300_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_400_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_800_contact.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\elro_800_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\ev1527.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\heitech.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\impuls.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\logilink_switch.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\mumbi.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\ninjablocks_weather.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\pollin.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\quigg_gt1000.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\quigg_gt7000.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\quigg_screen.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\rc101.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\rsl366.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\sc2262.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\selectremote.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\433.92\silvercrest.h">
+      <Filter>libs\plight\protocols\433.92</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\cpu_temp.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\datetime.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\lirc.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\openweathermap.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\program.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\sunriseset.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\wunderground.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\API\xbmc.h">
+      <Filter>libs\plight\protocols\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\core\pilight_firmware_v2.h">
+      <Filter>libs\plight\protocols\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\core\pilight_firmware_v3.h">
+      <Filter>libs\plight\protocols\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\core\raw.h">
+      <Filter>libs\plight\protocols\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_label.h">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_screen.h">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_switch.h">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_weather.h">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_webcam.h">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\generic\generic_dimmer.h">
+      <Filter>libs\plight\protocols\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\gpio_switch.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\lm75.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\lm76.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\relay.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\bmp180.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\dht11.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\dht22.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\ds18b20.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\GPIO\ds18s20.h">
+      <Filter>libs\plight\protocols\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\network\ping.h">
+      <Filter>libs\plight\protocols\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pilight-master\libs\pilight\protocols\network\arping.h">
+      <Filter>libs\plight\protocols\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\pilight-master\libs\webgui\ajax-loader.gif">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\apple-touch-icon-ipad.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\apple-touch-icon-iphone.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\apple-touch-icon-iphone-retina-display.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\apple-touch-icon-iphone-retina-display-hr.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\battery_green.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\battery_red.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\episode.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\favicon.ico">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\home.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\humi.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\logo.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\movie.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\off.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\on.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\pause.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\play.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\pressure.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\rain.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\screen_active.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\screen_inactive.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\shutdown.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\smallloader.gif">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\song.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\stop.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\sunrise_gray.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\sunrise_yellow.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\sunset_blue.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\sunset_gray.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\temp.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\update_active.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\update_inactive.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\windavg.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\winddir.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+    <Image Include="..\..\pilight-master\libs\webgui\windgust.png">
+      <Filter>libs\webgui</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\pilight-master\libs\webgui\version.txt">
+      <Filter>libs\webgui</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

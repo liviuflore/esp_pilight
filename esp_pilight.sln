@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "esp_pilight", "esp_pilight\esp_pilight.vcxproj", "{FF9BB59F-4FFB-4AC6-B00D-5AB1462BCA9F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESPpilight", "esp_pilight\esp_pilight.vcxproj", "{FF9BB59F-4FFB-4AC6-B00D-5AB1462BCA9F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pilight", "pilight\pilight.vcxproj", "{DD31E461-0DB0-4E22-88D0-8F6AA04603CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +13,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E403E075-7A21-4476-9576-A1D14313C8FA}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E403E075-7A21-4476-9576-A1D14313C8FA}.Debug|Win32.Build.0 = Debug|Win32
-		{E403E075-7A21-4476-9576-A1D14313C8FA}.Release|Win32.ActiveCfg = Release|Win32
-		{E403E075-7A21-4476-9576-A1D14313C8FA}.Release|Win32.Build.0 = Release|Win32
 		{FF9BB59F-4FFB-4AC6-B00D-5AB1462BCA9F}.Debug|Win32.ActiveCfg = Debug|Win32
 		{FF9BB59F-4FFB-4AC6-B00D-5AB1462BCA9F}.Debug|Win32.Build.0 = Debug|Win32
 		{FF9BB59F-4FFB-4AC6-B00D-5AB1462BCA9F}.Release|Win32.ActiveCfg = Release|Win32
 		{FF9BB59F-4FFB-4AC6-B00D-5AB1462BCA9F}.Release|Win32.Build.0 = Release|Win32
+		{DD31E461-0DB0-4E22-88D0-8F6AA04603CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD31E461-0DB0-4E22-88D0-8F6AA04603CD}.Debug|Win32.Build.0 = Debug|Win32
+		{DD31E461-0DB0-4E22-88D0-8F6AA04603CD}.Release|Win32.ActiveCfg = Release|Win32
+		{DD31E461-0DB0-4E22-88D0-8F6AA04603CD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
