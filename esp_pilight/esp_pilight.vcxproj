@@ -44,7 +44,7 @@
     <NMakeOutput>$(ProjectDir)\build</NMakeOutput>
     <OutDir>build\$(Configuration)\</OutDir>
     <IntDir>build\$(Configuration)\</IntDir>
-    <ExecutablePath>$(ProjectDir);$(ExecutablePath);C:\MinGW\bin;C:\MinGW\msys\1.0\bin;D:\_code\git\esp_toolkit\xtensa-lx106-elf\bin</ExecutablePath>
+    <ExecutablePath>$(ProjectDir);$(ExecutablePath);C:\MinGW\bin;C:\MinGW\msys\1.0\bin;$(GIT_BASE_DIR)\esp_toolkit\xtensa-lx106-elf\bin</ExecutablePath>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
