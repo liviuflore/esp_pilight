@@ -3,7 +3,7 @@
 
 
 int DHT_init (void);
-int DHT_read_temp()
+int DHT_read_temp();
 //int DHT_get_temp ();
 //int DHT_get_hum ();
 

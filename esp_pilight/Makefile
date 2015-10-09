@@ -17,8 +17,8 @@
 XTENSA_TOOLS_ROOT ?= $(TOOLKIT_DIR)\xtensa-lx106-elf\bin
 
 # base directory of the ESP8266 SDK package, absolute
-#SDK_BASE	?= $(TOOLKIT_DIR)\esp_iot_rtos_sdk
-SDK_BASE	?= $(TOOLKIT_DIR)\esp_iot_rtos_sdk-master
+SDK_BASE	?= $(TOOLKIT_DIR)\esp_iot_rtos_sdk
+#SDK_BASE	?= $(TOOLKIT_DIR)\esp_iot_rtos_sdk-master
 #SDK_BASE	?= $(TOOLKIT_DIR)\esp_iot_sdk_v1.2.0
 #SDK_BASE	?= $(TOOLKIT_DIR)\esp_iot_sdk_v1.4.0
 

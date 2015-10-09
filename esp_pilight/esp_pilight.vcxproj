@@ -40,7 +40,7 @@
     <NMakeBuildCommandLine>mingw32-make TOOLKIT_DIR=$(ProjectDir)..\..\esp_toolkit</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>mingw32-make TOOLKIT_DIR=$(ProjectDir)..\..\esp_toolkit clean</NMakeCleanCommandLine>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>$(ProjectDir)..\..\esp_toolkit\esp_iot_rtos_sdk-master\include\espressif;$(ProjectDir)..\..\esp_toolkit\esp_iot_rtos_sdk-master\include\lwip;$(ProjectDir)..\..\esp_toolkit\esp_iot_rtos_sdk-master\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>$(ProjectDir)..\..\esp_toolkit\esp_iot_rtos_sdk\include\espressif;$(ProjectDir)..\..\esp_toolkit\esp_iot_rtos_sdk\include\lwip;$(ProjectDir)..\..\esp_toolkit\esp_iot_rtos_sdk\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeOutput>$(ProjectDir)\build</NMakeOutput>
     <OutDir>build\$(Configuration)\</OutDir>
     <IntDir>build\$(Configuration)\</IntDir>

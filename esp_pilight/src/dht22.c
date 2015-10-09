@@ -15,6 +15,8 @@
 #define DHT_PIN_NO 2
 #define DHT_PIN_INT_MODE GPIO_PIN_INTR_ANYEGDE
 
+
+
 void ICACHE_FLASH_ATTR registerInterrupt(int pin, GPIO_INT_TYPE mode);
 
 LOCAL void DHT_gpio_int_callback(void *arg);
@@ -76,8 +78,9 @@ void ICACHE_FLASH_ATTR DHT_read_bit()
         printf("||| overflow 1024 |||\n");
         return;
     }
-    gettimeofday(&tv, NULL);
-    timersub(tv, last_tv, tv_diff);
+    //gettimeofday(&tv, NULL);
+    //timersub(&tv, &last_tv, &tv_diff);
+    // USE system_get_time //RTC
     last_tv.tv_sec = tv.tv_sec;
     last_tv.tv_usec = tv.tv_usec;
     timings[timings_current][timings_index[timings_current]++] = (tv_diff.tv_sec * 1000000) + tv_diff.tv_usec;

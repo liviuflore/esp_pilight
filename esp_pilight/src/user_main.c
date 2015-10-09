@@ -9,6 +9,9 @@
  *     2014/12/1, v1.0 create this file.
 *******************************************************************************/
 #include "esp_common.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+#include "freertos/task.h"
 
 #include "user_config.h"
 #include "user_platform.h"
