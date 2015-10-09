@@ -3,7 +3,6 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 #include "freertos/portmacro.h"
-#include "sys/time.h"
 #include "drivers/gpio.h"
 #include "debug.h"
 
@@ -70,20 +69,18 @@ LOCAL void DHT_gpio_int_callback(void *arg)
 int timings[2][1024] = { { 0 } };
 int timings_current = 0;
 int timings_index[2] = { 0 };
-struct timeval  last_tv = { 0 };
+unsigned int last_ts = { 0 };
 void ICACHE_FLASH_ATTR DHT_read_bit()
 {
-    struct timeval  tv, tv_diff;
+    unsigned int ts;
     if (timings_index[timings_current] >= 1024) {
         printf("||| overflow 1024 |||\n");
         return;
     }
-    //gettimeofday(&tv, NULL);
-    //timersub(&tv, &last_tv, &tv_diff);
-    // USE system_get_time //RTC
-    last_tv.tv_sec = tv.tv_sec;
-    last_tv.tv_usec = tv.tv_usec;
-    timings[timings_current][timings_index[timings_current]++] = (tv_diff.tv_sec * 1000000) + tv_diff.tv_usec;
+    ts = system_get_time();
+    /* TODO: check wraparound */
+    timings[timings_current][timings_index[timings_current]++] = ts - last_ts;
+    last_ts = ts;
 }
 
 int ICACHE_FLASH_ATTR DHT_read_temp()
