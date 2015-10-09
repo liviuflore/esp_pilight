@@ -41,3 +41,30 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Visual Studio generated files
+*.opensdf
+*.sdf
+*.suo
+*.log
+*.idb
+*.pdb
+*.tlog
+*.ilk
+*.lastbuildstate
+*.vcxproj.user
+
+# compile output
+*.obj
+*.out
+*.o
+*.bin
+*.a
+www_test.exe
+
+# generated web source files
+*_png.c
+*_html.c
+*_css.c
+webpages.c
+webpages.h
